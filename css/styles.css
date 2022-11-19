@@ -56,7 +56,6 @@ img {
 a {
   display: inline-block;
   text-decoration: none;
-  /* text-align: center; */
   color: inherit;
 }
 ul {
@@ -81,11 +80,8 @@ button {
 
 .conteiner {
   max-width: 390px;
-  /* width: 390px; */
-  /* max-width: 390px;
-  width: 100%; */
   margin: 0 auto;
-  padding: 0 18px;
+  padding: 0 17px;
 }
 
 /* -------------- HEADER -------------- */
@@ -182,11 +178,11 @@ button {
   }
   .header__menu {
     position: fixed;
-    overflow: auto;
-    top: -100%;
+    top: -150%;
     left: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
+    overflow: auto;
     background-color: #b6baab;
     padding-top: 112px;
     padding-left: 17px;
@@ -215,18 +211,10 @@ button {
 .nav-item__btn {
   position: relative;
   padding-right: 220px;
-  /* z-index: 99; */
-  /* color: #6bba25; */
 }
 .nav-item__btn.opened-list {
   margin-bottom: 27px;
 }
-/* li .nav-item__btn {
-  display: block;
-  width: 100%;
-  align-items: start;
-  background-color: #2d2f29;
-} */
 
 .opened-list.nav-item__btn::before {
   content: '';
@@ -280,8 +268,6 @@ button {
   padding-top: 111px;
   padding-bottom: 111px;
 
-  /* padding-top: 28.5%;
-  padding-bottom: 28%; */
   margin: 0 auto;
   background-image: linear-gradient(
       0deg,
@@ -434,14 +420,12 @@ button {
 }
 
 .offers__block {
-  margin-top: 45px;
   display: flex;
   gap: 23px;
   overflow-x: scroll;
 }
 
 .offer-card-wrap {
-  /* display: inline-flex; */
   width: 356px;
   position: relative;
   padding: 65px 10.2px 24px 18px;
@@ -483,14 +467,9 @@ button {
   width: 149px;
   font-family: 'TT Firs Neue';
   font-weight: 600;
-  /* padding-left: 20px; */
-  /* height: 47px; */
 }
 .block-one {
   border-right: 1px solid #e0e0e0;
-  /* outline: 1px solid yellowgreen; */
-  /* margin-right: 20px;
-  margin-bottom: 21px; */
 }
 .block-one__title {
   display: flex;
@@ -498,9 +477,6 @@ button {
   margin-bottom: 14px;
 }
 .card-title {
-  /* font-family: 'TT Firs Neue Bold'; */
-  /* font-style: normal; */
-  /* font-weight: 600; */
   font-size: 16px;
   line-height: 1.31;
 
@@ -517,14 +493,9 @@ button {
   /* display: flex; */
 }
 .block-two {
-  /* outline: 1px solid yellowgreen; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-
-  /* font-family: 'TT Firs Neue';
-  font-weight: 600; */
-
   font-size: 13px;
 }
 .block-two div:not(:last-child) {
@@ -561,8 +532,6 @@ button {
 }
 .block-three {
   border-right: 1px solid #e0e0e0;
-  /* outline: 1px solid yellowgreen; */
-  /* margin-right: 20px; */
 }
 .block-one__checkbox-title {
   font-size: 14px;
@@ -646,7 +615,6 @@ button {
   background-color: #f1f1f1;
   border-radius: 12px;
   overflow: hidden;
-  /* margin-bottom: 45px; */
 }
 
 .notes-wrap {
@@ -685,7 +653,6 @@ button {
 }
 
 .dep-text::-webkit-scrollbar-track {
-  /* width: 1px; */
   background-color: rgba(148, 148, 148, 0.62);
   border: 1px solid #e4e4e4;
 }
@@ -803,7 +770,6 @@ button {
   padding-left: 21px;
   padding-right: 39px;
   padding-bottom: 42px;
-  /* padding: 24px 39px 42px 21px; */
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -864,11 +830,9 @@ button {
 }
 
 .caesars {
-  /* padding-top: 24px; */
   background-color: #163131;
 }
 .betmgm {
-  /* padding-top: 5px; */
   background-color: #2d2f29;
 }
 .casinod {
