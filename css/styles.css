@@ -1016,7 +1016,12 @@ input {
   }
 
   .hero {
-    padding: 50px 0px 60px 70px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    /* padding: 50px 0px 60px 70px; */
+  }
+  .hero__conteiner {
+    padding-left: 70px;
   }
   .hero__text-top {
     font-weight: 700;
@@ -1052,7 +1057,12 @@ input {
       top: 72px;
     }
     .hero {
-      padding: 90px 0 120px 110px;
+      padding-top: 90px;
+      padding-bottom: 120px;
+      /* padding: 90px 0 120px 110px; */
+    }
+    .hero__conteiner {
+      padding-left: 110px;
     }
     .hero__text-top {
       font-weight: 700;
@@ -1072,7 +1082,12 @@ input {
       gap: 60px;
     }
     .hero {
-      padding: 163px 0 174px 355px;
+      padding-top: 163px;
+      padding-bottom: 174px;
+      /* padding: 163px 0 174px 355px; */
+    }
+    .hero__conteiner {
+      padding-left: 196px;
     }
     .hero__text-top {
       font-weight: 700;
@@ -2034,8 +2049,37 @@ input {
 .row__data--currency {
   color: #7bda03;
 }
+
+/*-----pm-review-text part-----*/
+
+.pm-review-text__wrap {
+  text-align: center;
+  margin-bottom: 45px;
+}
+.pm-review-text__title {
+  font-size: 22px;
+  line-height: 1.1;
+
+  color: #121212;
+  margin-bottom: 10px;
+}
+.pm-review-text__title--second {
+  margin-top: 16px;
+}
+.pm-review-text__text {
+  font-size: 13px;
+  line-height: 1.3;
+
+  color: #54544d;
+}
 @media screen and (min-width: 768px) {
+  .hero__rewiew-page-conteiner {
+    padding-left: 80px;
+  }
   @media screen and (min-width: 1201px) {
+    .hero__rewiew-page-conteiner {
+      padding-left: 110px;
+    }
     .hero.rewiew-page {
       margin-bottom: 0;
     }
@@ -2055,13 +2099,36 @@ input {
       padding: 16px 20px 0 17px;
       top: -454px;
       left: 54%;
-      /* left: 1089px; */
+
       width: 508px;
       height: 454px;
       background-color: rgba(23, 24, 22, 0.85);
     }
+    .pm-review-text_section-wrap {
+      display: flex;
+      gap: 84px;
+      flex-direction: row-reverse;
+      padding: 47px 7px 45px 95px;
+    }
+    .pm-review-text__wrap {
+      text-align: left;
+      margin-bottom: 0;
+      flex: 0 0 650px;
+    }
+    .pm-review-text__title {
+      font-style: 30px;
+    }
+    .pm-review-text__text {
+      font-style: 15px;
+    }
   }
   @media screen and (min-width: 1608px) {
+    .hero__rewiew-page-conteiner {
+      padding-left: 196px;
+    }
+    .hero__text--rev-page {
+      width: 815px;
+    }
     .hero-second__pm-logo {
       width: 227px;
     }
@@ -2070,6 +2137,103 @@ input {
       left: 68%;
       height: 603px;
       padding: 60px 24px 16px 24px;
+    }
+    .pm-review-text_section-wrap {
+      display: flex;
+      gap: 134px;
+      flex-direction: row-reverse;
+      padding: 97px 7px 105px 195px;
+    }
+    .pm-review-text__wrap {
+      flex: 0 0 779px;
+    }
+  }
+}
+.offer-card__review-page--section {
+  background-color: #d9dcd4;
+  padding-top: 43px;
+  padding-bottom: 43px;
+}
+.offer-card__review-page {
+  background-color: var(--card-bg);
+  border-radius: 12px;
+  padding-bottom: 32px;
+}
+.offer-card__title-text {
+  text-align: center;
+  font-size: 22px;
+  line-height: 1.1;
+  margin-top: 26px;
+}
+.offer-card__t-row {
+  display: block;
+  padding: 14px 0 14px 5px;
+  border-bottom: 1px solid rgba(176, 193, 171, 0.73);
+}
+.offer-card__title {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.25;
+  /* width: 93px; */
+  width: 27%;
+}
+.offer-card__t-data {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  /* width: 117px; */
+  width: 35%;
+}
+@media screen and (max-width: 767px) {
+  .card-upper-table {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .offer-card__title-text {
+    font-size: 30px;
+    text-align: left;
+  }
+  .offer-card__t-row {
+  }
+  .offer-card__title {
+    font-size: 16px;
+  }
+  .offer-card__t-data {
+    font-size: 16px;
+  }
+  .offer-card__title-text {
+    margin-left: 48px;
+  }
+  .offer-card__teble {
+    padding: 0 48px;
+  }
+
+  @media screen and (min-width: 1201px) {
+    .offer-card__review-page--section {
+      padding-top: 56px;
+      padding-bottom: 56px;
+    }
+    .offer-card__title-text {
+      margin-top: 54px;
+      margin-bottom: 30px;
+      margin-left: 137px;
+    }
+    .offer-card__teble {
+      padding: 0 137px;
+    }
+    .offer-card__review-page {
+      padding-bottom: 59px;
+    }
+  }
+  @media screen and (min-width: 1608px) {
+    .offer-card__title-text {
+      margin-left: 348px;
+    }
+    .offer-card__teble {
+      padding: 0 348px;
     }
   }
 }
