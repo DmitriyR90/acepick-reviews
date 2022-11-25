@@ -1348,6 +1348,7 @@ input {
 }
 
 /* -------------- --------------- -------------- */
+/*shablon*/
 @media screen and (max-width: 767px) {
 }
 @media screen and (min-width: 768px) {
@@ -1961,5 +1962,114 @@ input {
     }
   }
   @media screen and (min-width: 1608px) {
+  }
+}
+
+/* -------------- PAGE PAGE  -------------- */
+/* -------------- REVIEWS PAGE  -------------- */
+/*----------HERO-----------*/
+.hero-rating__wrap {
+  display: flex;
+  gap: 43px;
+  margin-top: 30px;
+  align-items: center;
+}
+.hero-rating__stars {
+  flex: 0 0 130px;
+}
+.hero-rating__ukr {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.hero-rating__ukr {
+  font-size: 14px;
+  line-height: 1.28;
+
+  color: #f2f5e8;
+}
+.hero.rewiew-page {
+  /* position: relative; */
+  margin-bottom: 500px;
+  padding-bottom: 60px;
+}
+
+/*-----HERO part-----*/
+.pm-hero__table {
+  position: relative;
+}
+.hero-second {
+  position: absolute;
+  top: -500px;
+  left: 0;
+  /* display: inline-block; */
+  /* margin: 0 auto; */
+  width: 100%;
+  height: 500px;
+  background-color: #171816;
+  padding: 32px 20px 45px 17px;
+}
+
+.hero-second__pm-logo {
+  display: block;
+  margin: 0 auto;
+}
+.table-row {
+  display: block;
+  border-bottom: 1px solid #383838;
+  /* margin-bottom: 10px; */
+  font-size: 16px;
+  line-height: 21px;
+  color: #f2f5e8;
+}
+.row__title {
+  width: 126px;
+  padding: 18px 0 18px 0;
+}
+.row__data {
+}
+.row__data--link {
+  color: #7bda03;
+}
+.row__data--currency {
+  color: #7bda03;
+}
+@media screen and (min-width: 768px) {
+  @media screen and (min-width: 1201px) {
+    .hero.rewiew-page {
+      margin-bottom: 0;
+    }
+    .hero.rewiew-page {
+      padding-bottom: 82px;
+    }
+    .hero-second__pm-logo {
+      width: 180px;
+    }
+    .hero.rewiew-page {
+      overflow: hidden;
+    }
+    .hero__text--rev-page {
+      width: 500px;
+    }
+    .hero-second {
+      padding: 16px 20px 0 17px;
+      top: -454px;
+      left: 54%;
+      /* left: 1089px; */
+      width: 508px;
+      height: 454px;
+      background-color: rgba(23, 24, 22, 0.85);
+    }
+  }
+  @media screen and (min-width: 1608px) {
+    .hero-second__pm-logo {
+      width: 227px;
+    }
+    .hero-second {
+      top: -603px;
+      left: 68%;
+      height: 603px;
+      padding: 60px 24px 16px 24px;
+    }
   }
 }
