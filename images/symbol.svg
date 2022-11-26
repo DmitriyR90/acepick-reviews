@@ -116,9 +116,15 @@
 <symbol id="icon-hero-star-gray" viewBox="0 0 32 32">
 <path fill="#8c8f87" style="fill: var(--color2, #8c8f87)" d="M16.677 25.654l7.753 4.923c1 0.631 2.231-0.308 1.938-1.461l-2.246-8.83c-0.061-0.245-0.051-0.502 0.028-0.741s0.224-0.452 0.418-0.613l6.953-5.8c0.908-0.754 0.446-2.277-0.738-2.354l-9.076-0.585c-0.248-0.014-0.486-0.101-0.685-0.248s-0.352-0.35-0.438-0.583l-3.384-8.522c-0.090-0.246-0.253-0.459-0.467-0.609s-0.47-0.231-0.732-0.231-0.518 0.081-0.732 0.231c-0.215 0.15-0.378 0.363-0.467 0.609l-3.384 8.522c-0.086 0.233-0.238 0.435-0.438 0.583s-0.438 0.234-0.685 0.248l-9.076 0.585c-1.185 0.077-1.646 1.6-0.738 2.354l6.953 5.8c0.194 0.161 0.339 0.373 0.418 0.613s0.089 0.496 0.028 0.741l-2.077 8.184c-0.354 1.384 1.123 2.508 2.308 1.754l7.215-4.569c0.202-0.129 0.437-0.197 0.677-0.197s0.475 0.068 0.677 0.197z"></path>
 </symbol>
-
+<symbol id="icon-disadvant" viewBox="0 0 32 32">
+<path fill="#c03" style="fill: var(--color1, #c03); stroke: var(--color1, #c03)" stroke="#c03" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.1818" d="M16.571 28.571c6.627 0 12-5.373 12-12s-5.373-12-12-12c-6.627 0-12 5.373-12 12s5.373 12 12 12z"></path>
+<path fill="none" stroke="#fff" style="stroke: var(--color2, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.3636" d="M21.393 11.75l-9.643 9.643"></path>
+<path fill="none" stroke="#fff" style="stroke: var(--color2, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.3636" d="M21.393 21.393l-9.643-9.643"></path>
+</symbol>
+<symbol id="icon-faq-arrow" viewBox="0 0 32 32">
+<path fill="none" stroke="#6bba25" style="stroke: var(--color1, #6bba25)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="10" stroke-width="1.3913" d="M16 28c6.627 0 12-5.373 12-12s-5.373-12-12-12c-6.627 0-12 5.373-12 12s5.373 12 12 12z"></path>
+<path fill="none" stroke="#6bba25" style="stroke: var(--color1, #6bba25)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.3913" d="M20.5 14.5l-4.5 5-4.5-5"></path>
+</symbol>
 
 </defs>
 </svg>
-
-<path fill="#beff06" style="fill: var(--color1, #beff06)" d="M25.93 30.959c1.389 1.388 3.64 1.388 5.028 0l22.628-22.627c1.388-1.389 1.388-3.64 0-5.028s-3.64-1.389-5.028 0l-20.113 20.113-20.113-20.113c-1.389-1.389-3.64-1.389-5.028 0s-1.389 3.64 0 5.028l22.627 22.627zM24.889 24.889v3.556h7.111v-3.556h-7.111z"></path>

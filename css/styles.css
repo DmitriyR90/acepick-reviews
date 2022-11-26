@@ -636,7 +636,7 @@ input {
   height: 130px;
   overflow-y: scroll;
   padding-left: 15px;
-  padding-right: 30px;
+  padding-right: 15px;
   color: #54544d;
   font-size: 14px;
   line-height: 1.3;
@@ -694,6 +694,9 @@ input {
   }
   .notes-wrap .notes-item:not(:last-child) {
     margin-bottom: 20px;
+  }
+  .dep-text {
+    margin-right: 20px;
   }
 }
 
@@ -795,10 +798,6 @@ input {
   gap: 21px;
   overflow-x: scroll;
 }
-.offer-cards__block::-webkit-scrollbar {
-  /* display: none; */
-}
-
 .deposit-offer-card {
   width: 305px;
   height: 336px;
@@ -1018,7 +1017,6 @@ input {
   .hero {
     padding-top: 50px;
     padding-bottom: 60px;
-    /* padding: 50px 0px 60px 70px; */
   }
   .hero__conteiner {
     padding-left: 70px;
@@ -1059,7 +1057,6 @@ input {
     .hero {
       padding-top: 90px;
       padding-bottom: 120px;
-      /* padding: 90px 0 120px 110px; */
     }
     .hero__conteiner {
       padding-left: 110px;
@@ -1084,7 +1081,6 @@ input {
     .hero {
       padding-top: 163px;
       padding-bottom: 174px;
-      /* padding: 163px 0 174px 355px; */
     }
     .hero__conteiner {
       padding-left: 196px;
@@ -1395,19 +1391,13 @@ input {
   margin: 0 auto;
   width: 100%;
 }
-.user__block {
-}
 .user-name__wrap {
   display: flex;
   align-items: center;
   gap: 21px;
 }
-.user-name__logo {
-}
 .user-name__name {
   color: #6bba25;
-}
-.user__title {
 }
 .user__text {
   line-height: 1.29;
@@ -1425,10 +1415,6 @@ input {
   }
   .user__block {
     margin-top: 14px;
-  }
-  .page-title__img {
-    /* margin-top: 30px;
-    margin-bottom: 14px; */
   }
   .user-name__name {
     font-size: 18px;
@@ -1453,19 +1439,10 @@ input {
   }
 }
 @media screen and (min-width: 768px) {
-  /* .page-title__block {
-    display: flex;
-    align-items: flex-start;
-  } */
-  .page-title__block picture {
-    /* flex: 0 0 873px; */
-  }
-
   .page-title__block {
     padding: 46px 0 50px 0;
   }
   .user__block {
-    /* padding-left: 108px; */
     padding-top: 25px;
   }
   .user-name__wrap {
@@ -1665,8 +1642,6 @@ input {
   line-height: 1.1;
   margin-bottom: 17px;
 }
-.page-title__img {
-}
 .left-side__text-top {
   margin-top: 18px;
 }
@@ -1683,7 +1658,6 @@ input {
   border-radius: 20px;
   margin-top: 22px;
 
-  /* width: 323px; */
   width: 100%;
   height: 158px;
 }
@@ -1695,13 +1669,11 @@ input {
   width: 100%;
   border: 5px solid #faa13a;
 
-  /* height: 250px; */
   margin-top: 22px;
   padding: 18px 18px 22px 17px;
 }
 .pm-logo {
   display: block;
-  /* margin: 0 auto 15px auto; */
 }
 
 .pm__btn {
@@ -1749,8 +1721,6 @@ input {
     font-size: 14px;
     margin-bottom: 10px;
   }
-  .user-name__name.news-page {
-  }
   .navigate-buttons__title {
     font-size: 20px;
   }
@@ -1782,7 +1752,6 @@ input {
     align-items: center;
     justify-content: space-between;
 
-    /* height: 250px; */
     padding: 18px 18px 22px 17px;
   }
   .pari-match__in {
@@ -1976,8 +1945,6 @@ input {
       padding: 72px 0 223px 0;
     }
   }
-  @media screen and (min-width: 1608px) {
-  }
 }
 
 /* -------------- PAGE PAGE  -------------- */
@@ -2004,7 +1971,6 @@ input {
   color: #f2f5e8;
 }
 .hero.rewiew-page {
-  /* position: relative; */
   margin-bottom: 500px;
   padding-bottom: 60px;
 }
@@ -2017,8 +1983,6 @@ input {
   position: absolute;
   top: -500px;
   left: 0;
-  /* display: inline-block; */
-  /* margin: 0 auto; */
   width: 100%;
   height: 500px;
   background-color: #171816;
@@ -2032,7 +1996,6 @@ input {
 .table-row {
   display: block;
   border-bottom: 1px solid #383838;
-  /* margin-bottom: 10px; */
   font-size: 16px;
   line-height: 21px;
   color: #f2f5e8;
@@ -2040,8 +2003,6 @@ input {
 .row__title {
   width: 126px;
   padding: 18px 0 18px 0;
-}
-.row__data {
 }
 .row__data--link {
   color: #7bda03;
@@ -2175,7 +2136,6 @@ input {
   font-weight: 600;
   font-size: 12px;
   line-height: 1.25;
-  /* width: 93px; */
   width: 27%;
 }
 .offer-card__t-data {
@@ -2183,7 +2143,6 @@ input {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
-  /* width: 117px; */
   width: 35%;
 }
 @media screen and (max-width: 767px) {
@@ -2195,8 +2154,6 @@ input {
   .offer-card__title-text {
     font-size: 30px;
     text-align: left;
-  }
-  .offer-card__t-row {
   }
   .offer-card__title {
     font-size: 16px;
@@ -2234,6 +2191,167 @@ input {
     }
     .offer-card__teble {
       padding: 0 348px;
+    }
+  }
+}
+
+.pm-casino-rev__title {
+  margin-top: 48px;
+  margin-bottom: 31px;
+}
+
+.folowers__block {
+  background-color: #d9dcd4;
+  padding: 41px 13px 50px 13px;
+}
+.folowers__title {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 19px;
+}
+.folowers__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+.folower__link {
+  display: inline-block;
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.27;
+  color: #6e716a;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: rgba(241, 241, 241, 0.45);
+  border: 1px solid #6e716a;
+  border-radius: 4.6px;
+}
+.pa-folower__link {
+  width: 160px;
+}
+.nj-folower__link {
+  width: 325px;
+}
+.casino-attributes__table {
+  display: block;
+}
+.attributes__title {
+  display: block;
+  width: 100%;
+  background-color: #d9dcd4;
+  padding: 4px 16px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.31;
+}
+.attributes__item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: start;
+  padding: 11px 17px;
+  font-size: 14px;
+  line-height: 1.29;
+}
+.green-color {
+  color: #6bba25;
+}
+.attributes__title-text {
+  font-weight: 600;
+  padding: 51px 0 27px;
+  font-size: 22px;
+  line-height: 1.1;
+  text-align: center;
+}
+.faq__wrap {
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding-bottom: 36px;
+  margin-top: 45px;
+  margin-bottom: 50px;
+}
+.faq-list {
+  padding: 0 9px;
+}
+.faq-open__btn {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.25;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(176, 193, 171, 0.73);
+}
+
+@media screen and (max-width: 767px) {
+  .faq-open__btn svg {
+    width: 18.75px;
+    height: 18.75px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .advantages-and-disadv .notes-wrap {
+    padding: 15px;
+    height: auto;
+    flex-wrap: nowrap;
+  }
+  .advantages-and-disadv .section-title__text {
+    font-size: 26px;
+  }
+  .advantages-and-disadv {
+    padding: 0 15px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-evenly;
+  }
+  .attributes__title-text {
+    font-size: 30px;
+    padding: 47px 0 43px;
+  }
+  .attributes__item {
+    font-size: 16px;
+  }
+  .pa-folower__link {
+    width: 238px;
+  }
+  .nj-folower__link {
+    width: 355px;
+  }
+  .pm-casino-rev__title {
+    font-size: 30px;
+  }
+  .faq-open__btn {
+    font-size: 22px;
+  }
+  .faq-list {
+    padding: 0 68px;
+  }
+  @media screen and (min-width: 1201px) {
+    .pa-folower__link {
+      width: 265px;
+    }
+    .faq-list {
+      padding: 0 168px;
+    }
+    .faq__wrap {
+      padding-bottom: 58px;
+    }
+  }
+  @media screen and (min-width: 1608px) {
+    .casino-attributes {
+      padding: 0 168px;
+    }
+    .pa-folower__link {
+      width: 350px;
+    }
+    .nj-folower__link {
+      width: 468px;
     }
   }
 }
