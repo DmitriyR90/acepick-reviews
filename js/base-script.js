@@ -35,4 +35,29 @@
       }
     });
   });
+
+  //faq accordion menu
+  document.querySelectorAll('.faq-open__btn').forEach((el) => {
+    el.addEventListener('click', () => {
+      let content = el.nextElementSibling;
+
+      if (content.style.maxHeight) {
+        document
+          .querySelectorAll('.faq-item')
+          .forEach((el) => (el.style.maxHeight = null));
+        el.classList.remove('opened-faq-list');
+      } else {
+        document
+          .querySelectorAll('.faq-item')
+          .forEach((el) => (el.style.maxHeight = null));
+
+        document.querySelectorAll('.faq-open__btn').forEach((btn) => {
+          btn.classList.remove('opened-faq-list');
+        });
+
+        content.style.maxHeight = content.scrollHeight + 'px';
+        el.classList.add('opened-faq-list');
+      }
+    });
+  });
 })();
