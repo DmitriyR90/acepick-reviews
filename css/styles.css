@@ -711,7 +711,8 @@ input {
     margin-bottom: 47px;
   }
   .block {
-    width: 149px;
+    /* width: 149px; */
+    width: 45%;
   }
   .block-bonus-card {
     border: 1.5px solid #e6a10e;
